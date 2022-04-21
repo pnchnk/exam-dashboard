@@ -392,3 +392,30 @@ html, body {
     position: absolute;
     left: 420px;
 }
+
+.checkboxes {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.inputs {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom:#a5a5a5 1px solid;
+    position: relative;
+}
+
+.label-4 {
+    display: inline-block;
+    width: 300px;
+    word-wrap: break-word;
+    margin-left: 40px;
+}
+
+input {
+    position: absolute;
+    top: 20px;
+}
