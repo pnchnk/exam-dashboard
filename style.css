@@ -1,0 +1,100 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100%;
+    position: relative;
+}
+
+.left-menu {
+    width: 235px;
+    position: fixed;
+    background-color: rgb(238, 238, 238);
+    min-height: 100%;
+    -webkit-box-shadow: 7px 0px 2px 0px #919191; 
+    box-shadow: 7px 0px 2px 0px #919191;
+}
+
+.content {
+    background-color: beige;
+}
+
+.menu-header {
+    margin-left: 30px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.spisok-nav {
+    list-style-type: none;
+    border-top: 2px solid lightgray;
+}
+
+.spisok-nav li {
+    margin-top: 30px;
+    position: relative;
+    margin-left: 40px;
+}
+
+.spisok-nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+.dash ::before {
+    content: '';
+    background-image: url(./icons_exam_task1/dashboard_gray.svg);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-size: cover;
+    right: 165px;
+}
+
+.user-pr ::before {
+    content: '';
+    background-image: url(./icons_exam_task1/account_gray.svg);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-size: cover;
+    right: 165px;
+}
+
+.maps ::before {
+    content: '';
+    background-image: url(./icons_exam_task1/map_gray.svg);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-size: cover;
+    right: 165px;
+}
+
+.notification ::before {
+    content: '';
+    background-image: url(./icons_exam_task1/notify_gray.svg);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-size: cover;
+    right: 165px;
+}
+
+.sup ::before {
+    content: '';
+    background-image: url(./icons_exam_task1/support_gray.svg);
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-size: cover;
+    right: 165px;
+}
