@@ -245,7 +245,6 @@ html, body {
 .second-card-row {
     margin-left: 40px;
     display: flex;
-    /* flex-direction: column; */
     margin-top: 80px;
     justify-content: space-between;
     margin-right: 40px;
@@ -316,4 +315,80 @@ html, body {
     position: relative;
     display: block;
     top: 10px;
+}
+
+.third-card-row {
+    margin-left: 40px;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.card3 {
+    width: 48%;
+    position: relative;
+    background-color: white;
+    -webkit-box-shadow: 3px 2px 6px 2px rgba(112,112,112,0.73); 
+    box-shadow: 3px 2px 6px 2px rgba(112,112,112,0.73);
+}
+
+.card3-text {
+    background-color: rgb(235, 170, 51);
+    padding: 30px 15px 30px 15px ;
+    margin: auto;
+    width: 95%;
+    margin-top: -20px;
+    -webkit-box-shadow: 3px 2px 6px 2px rgba(112,112,112,0.73); 
+    box-shadow: 3px 2px 6px 2px rgba(112,112,112,0.73);
+}
+
+.card3-text p {
+    display: inline;
+    color: white;
+}
+
+.card3-list {
+    list-style-type: none;
+    display: inline-flex;
+    padding: 0;
+}
+
+.card3-list li {
+    margin-left: 100px;
+}
+
+.card3-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.bugs a::before {
+    content: '';
+    background-image: url(./icons_exam_task1/bug.svg);
+    background-size: cover;
+    width: 16px;
+    height: 18px;
+    position: absolute;
+    left: 140px;
+}
+
+.website a::before {
+    content: '';
+    background-image: url(./icons_exam_task1/web.svg);
+    width: 18px;
+    height: 18px;
+    background-size: cover;
+    position: absolute;
+    left: 280px;
+}
+
+.cloud a::before {
+    content: '';
+    background-image: url(./icons_exam_task1/cloud.svg);
+    width: 28px;
+    height: 18px;
+    background-size: cover;
+    position: absolute;
+    left: 420px;
 }
