@@ -49,12 +49,37 @@ html, body {
 .spisok-nav li {
     padding-top: 30px;
     position: relative;
-    margin-left: 40px;
+    margin-left: 20px;
 }
 
 .spisok-nav li a {
     text-decoration: none;
     color: black;
+}
+
+.spisok-nav li a:focus {
+    background-color: rgb(187, 67, 87) !important;
+    color: white;
+}
+
+.dash a {
+    padding: 10px 20px 10px 35px;
+}
+
+.user-pr a {
+    padding: 10px 15px 10px 35px;
+}
+
+.maps a {
+    padding: 10px 55px 10px 35px;
+}
+
+.notification a {
+    padding: 10px 5px 10px 35px;
+}
+
+.sup a {
+    padding: 10px 40px 10px 35px;
 }
 
 .dash ::before {
@@ -64,7 +89,8 @@ html, body {
     height: 20px;
     position: absolute;
     background-size: cover;
-    right: 165px;
+    right: 155px;
+
 }
 
 .user-pr ::before {
@@ -74,7 +100,7 @@ html, body {
     height: 20px;
     position: absolute;
     background-size: cover;
-    right: 165px;
+    right: 155px;
 }
 
 .maps ::before {
@@ -84,7 +110,7 @@ html, body {
     height: 20px;
     position: absolute;
     background-size: cover;
-    right: 165px;
+    right: 155px;
 }
 
 .notification ::before {
@@ -94,7 +120,7 @@ html, body {
     height: 20px;
     position: absolute;
     background-size: cover;
-    right: 165px;
+    right: 155px;
 }
 
 .sup ::before {
@@ -104,7 +130,7 @@ html, body {
     height: 20px;
     position: absolute;
     background-size: cover;
-    right: 165px;
+    right: 155px;
 }
 
 .first-card-row {
