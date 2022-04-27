@@ -393,29 +393,17 @@ html, body {
     left: 420px;
 }
 
-.checkboxes {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-    margin-right: 20px;
+
+.table-card3 {
+    width: 90%;
+    margin: auto;
     margin-top: 20px;
 }
 
-.inputs {
-    padding-top: 10px;
-    padding-bottom: 10px;
-    border-bottom:#a5a5a5 1px solid;
-    position: relative;
+td {
+    padding-top: 30px;
+    padding-right: 60px;
 }
 
-.label-4 {
-    display: inline-block;
-    width: 300px;
-    word-wrap: break-word;
-    margin-left: 40px;
-}
 
-input {
-    position: absolute;
-    top: 20px;
-}
+
