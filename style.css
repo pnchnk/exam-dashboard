@@ -438,4 +438,28 @@ th {
     padding-bottom: 10px;
 }
 
+.footer-content {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-top: 1px solid gray;
+    justify-content: space-between;
+    padding-top: 20px;
+}
 
+.spisok-contacts {
+    padding-bottom: 30px;
+}
+
+.spisok-contacts li{
+    display: inline;
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.spisok-contacts li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
