@@ -37,11 +37,27 @@ body {
 }
 
 .menu-header {
-    margin-left: 30px;
+    margin-left: 60px;
     font-size: 24px;
     font-weight: bold;
     margin-top: 0;
     padding-top: 20px;
+}
+
+.menu-header2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    padding-top: 15px;
+}
+
+.menu-header2 a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu-header2 img {
+    visibility: hidden;
 }
 
 .spisok-nav {
@@ -643,4 +659,29 @@ th {
         padding-bottom: 20px;
     }
 
+}
+
+@media (max-width: 800px) {
+    .left-menu {
+        visibility: hidden;
+    }
+
+    .content {
+        margin-left: 0;
+    }
+
+    .menu-header2 {
+        margin-left: 40px;
+        position: relative;
+    }
+
+    .menu-header2 img {
+    width: 30px;
+    height: 20px;
+    visibility: inherit;
+    }
+
+    .card {
+        width: 48%;
+    }
 }
