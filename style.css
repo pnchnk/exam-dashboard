@@ -153,8 +153,8 @@ html, body {
     background-color: green;
     padding: 20px;
     position: absolute;
-    left: 20px;
-    top: -15px;
+    left: 5%;
+    top: -15%;
     -webkit-box-shadow: 5px 0px 9px -3px rgba(112,112,112,0.81); 
     box-shadow: 5px 0px 9px -3px rgba(112,112,112,0.81);
 }
@@ -202,8 +202,8 @@ html, body {
     background-color: rgb(235, 170, 51);
     padding: 20px;
     position: absolute;
-    left: 20px;
-    top: -15px;
+    left: 5%;
+    top: -15%;
     -webkit-box-shadow: 5px 0px 9px -3px rgba(112,112,112,0.81); 
     box-shadow: 5px 0px 9px -3px rgba(112,112,112,0.81);
 }
@@ -212,8 +212,8 @@ html, body {
     background-color: rgb(9, 9, 192);
     padding: 20px;
     position: absolute;
-    left: 20px;
-    top: -15px;
+    left: 5%;
+    top: -15%;
     -webkit-box-shadow: 5px 0px 9px -3px rgba(112,112,112,0.81); 
     box-shadow: 5px 0px 9px -3px rgba(112,112,112,0.81);
 }
@@ -222,8 +222,8 @@ html, body {
     background-color: rgb(187, 67, 87);
     padding: 20px;
     position: absolute;
-    left: 20px;
-    top: -15px;
+    left: 5%;
+    top: -15%;
     -webkit-box-shadow: 5px 0px 9px -3px rgba(112,112,112,0.81); 
     box-shadow: 5px 0px 9px -3px rgba(112,112,112,0.81);
 }
@@ -489,3 +489,5 @@ th {
     color: black;
     font-weight: bold;
 }
+
+
