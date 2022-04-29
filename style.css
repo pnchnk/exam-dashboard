@@ -684,4 +684,34 @@ th {
     .card {
         width: 48%;
     }
+
+    .footer-content {
+        border: none;
+        margin-top: 0;
+    }
+
+    footer {
+        border-top: 1px solid gray;
+    }
+}
+
+@media (max-width: 649px) {
+    .second-card-row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .card2 {
+        width: 100%;
+        margin-bottom: 60px;
+    }
+
+    .third-card-row {
+        margin-top: 20px;
+    }
+
+    .fourth-card-row {
+        padding-bottom: 30px;
+    }
+
 }
