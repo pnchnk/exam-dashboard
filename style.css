@@ -451,10 +451,10 @@ body {
     background-size: cover;
     position: absolute;
     right: 110%;
-} */
+}
 
 
-/* .table-card3 {
+.table-card3 {
     width: 90%;
     margin: auto;
     margin-top: 20px;
@@ -497,9 +497,9 @@ th {
 
 .card-3-p {
     padding-bottom: 10px;
-} */
+}
 
-/* .footer-content {
+.footer-content {
     display: flex;
     margin-top: 50px;
     margin-left: 40px;
@@ -523,7 +523,7 @@ th {
     text-decoration: none;
     color: black;
     font-weight: bold;
-} */
+}
 
 @media (max-width: 1370px) {
 
@@ -828,4 +828,4 @@ th {
     .card-3-h4, .card-3-p, .card3-text  {
         font-size: 16px;
     }
-}
+} */
