@@ -1,0 +1,44 @@
+@import './sizing';
+@import './menu';
+@import './cards';
+@import './images';
+
+.p1::before {
+    content: '';
+    background-image: url(./icons_exam_task1/alert.png);
+    background-size: cover;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 20px;
+}
+
+.p2::before {
+    content: '';
+    background-image: url(./icons_exam_task1/calendar.png);
+    background-size: cover;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 20px;
+}
+
+.p3::before {
+    content: '';
+    background-image: url(./icons_exam_task1/down.png);
+    background-size: cover;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 20px;
+}
+
+.p4::before {
+    content: '';
+    background-image: url(./icons_exam_task1/time.png);
+    background-size: cover;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 20px;
+}

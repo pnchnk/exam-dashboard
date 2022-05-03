@@ -1,0 +1,62 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    min-height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.content {
+    margin-left: 235px;
+    min-height: 100vh;
+    background-color: #e2e2e2;
+}
+
+.first-card-row {
+    margin-left: 40px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.second-card-row {
+    margin-left: 40px;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.third-card-row {
+    margin-left: 40px;
+    display: flex;
+    margin-top: 80px;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.footer-content {
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-top: 1px solid gray;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.spisok-contacts {
+    padding-bottom: 30px;
+}

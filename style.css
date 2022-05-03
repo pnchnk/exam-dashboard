@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
     padding: 0;
     margin: 0;
@@ -58,9 +58,9 @@ body {
 
 .menu-header2 img {
     visibility: hidden;
-}
+} */
 
-.spisok-nav {
+/* .spisok-nav {
     list-style-type: none;
     border-top: 2px solid lightgray;
 }
@@ -150,17 +150,17 @@ body {
     position: absolute;
     background-size: cover;
     right: 155px;
-}
+} */
 
-.first-card-row {
+/* .first-card-row {
     margin-left: 40px;
     display: flex;
     margin-top: 50px;
     justify-content: space-between;
     margin-right: 40px;
-}
+} */
 
-.card {
+/* .card {
     width: 22%;
     position: relative;
     background-color: white;
@@ -195,9 +195,9 @@ body {
     margin-bottom: 10px;
     margin-top: 0;
     font-weight: 400;
-}
+} */
 
-.card-body:after {
+/* .card-body:after {
     content: "";
     width: 85%;
     height: 1px;
@@ -206,9 +206,9 @@ body {
     position: relative;
     display: block;
     top: 10px;
-}
+} */
 
-.card-description {
+/* .card-description {
     margin-left: 40px;
     margin-top: 25px;
 }
@@ -216,9 +216,9 @@ body {
 .card-description p {
     font-size: 12px;
     color: gray;
-}
+} */
 
-.shop-img {
+/* .shop-img {
     background-color: rgb(235, 170, 51);
     padding: 20px;
     position: absolute;
@@ -246,9 +246,9 @@ body {
     top: -15%;
     -webkit-box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
     box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
-}
+} */
 
-.p1::before {
+/* .p1::before {
     content: '';
     background-image: url(./icons_exam_task1/alert.png);
     background-size: cover;
@@ -286,17 +286,17 @@ body {
     width: 15px;
     height: 15px;
     left: 20px;
-}
+} */
 
-.second-card-row {
+/* .second-card-row {
     margin-left: 40px;
     display: flex;
     margin-top: 80px;
     justify-content: space-between;
     margin-right: 40px;
-}
+} */
 
-.card2 {
+/* .card2 {
     width: 30%;
     position: relative;
     background-color: white;
@@ -333,9 +333,9 @@ body {
     margin-top: -20px;
     -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
     box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-}
+} */
 
-.card2-body h3,
+/* .card2-body h3,
 .card2-body h4 {
     margin-left: 20px;
 }
@@ -351,9 +351,9 @@ body {
     margin-bottom: 10px;
     margin-top: 0;
     font-weight: normal;
-}
+} */
 
-.card2-body:after {
+/* .card2-body:after {
     content: "";
     width: 90%;
     height: 1px;
@@ -362,15 +362,15 @@ body {
     position: relative;
     display: block;
     top: 10px;
-}
+} */
 
-.third-card-row {
+/* .third-card-row {
     margin-left: 40px;
     display: flex;
     margin-top: 80px;
     justify-content: space-between;
     margin-right: 40px;
-}
+} */
 
 .card3 {
     width: 48%;
@@ -390,7 +390,7 @@ body {
     -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
     box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 }
-
+/* 
 .card3-text p {
     display: inline;
     color: white;
@@ -409,9 +409,9 @@ body {
 .card3-list a {
     color: white;
     text-decoration: none;
-}
+} */
 
-.bugs {
+/* .bugs {
     position: relative;
 }
 
@@ -451,10 +451,10 @@ body {
     background-size: cover;
     position: absolute;
     right: 110%;
-}
+} */
 
 
-.table-card3 {
+/* .table-card3 {
     width: 90%;
     margin: auto;
     margin-top: 20px;
@@ -497,9 +497,9 @@ th {
 
 .card-3-p {
     padding-bottom: 10px;
-}
+} */
 
-.footer-content {
+/* .footer-content {
     display: flex;
     margin-top: 50px;
     margin-left: 40px;
@@ -523,7 +523,7 @@ th {
     text-decoration: none;
     color: black;
     font-weight: bold;
-}
+} */
 
 @media (max-width: 1370px) {
 

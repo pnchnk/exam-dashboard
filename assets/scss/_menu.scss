@@ -1,0 +1,135 @@
+.left-menu {
+    top: 0px;
+    width: 235px;
+    position: fixed;
+    left: 0px;
+    background-color: rgb(240, 240, 240);
+    min-height: 100%;
+    -webkit-box-shadow: 7px 0px 2px 0px #919191;
+    box-shadow: 7px 0px 2px 0px #919191;
+}
+
+.menu-header {
+    margin-left: 60px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    padding-top: 20px;
+}
+
+.menu-header2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 0;
+    padding-top: 15px;
+
+    a {
+    text-decoration: none;
+    color: black;
+    }
+
+    img {
+        visibility: hidden;
+    }
+}
+
+.spisok-nav {
+    list-style-type: none;
+    border-top: 2px solid lightgray;
+
+    li {
+        padding-top: 30px;
+        position: relative;
+        margin-left: 20px;
+    }
+
+    li a {
+        text-decoration: none;
+        color: black;
+
+        &:focus {
+            background-color: rgb(187, 67, 87) !important;
+            color: white;
+        }
+    }
+}
+
+
+
+
+
+.dash {
+    a {
+        padding: 10px 20px 10px 35px;
+    }
+    :before {
+        content: '';
+        background-image: url(./icons_exam_task1/dashboard_gray.svg);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background-size: cover;
+        right: 155px;
+    
+    }
+}
+
+.user-pr {
+    a{
+        padding: 10px 15px 10px 35px;  
+    } 
+    :before {
+        content: '';
+        background-image: url(./icons_exam_task1/account_gray.svg);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background-size: cover;
+        right: 155px;
+    }
+}
+
+.maps  {
+    a{
+        padding: 10px 55px 10px 35px;
+    } 
+    :before {
+        content: '';
+        background-image: url(./icons_exam_task1/map_gray.svg);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background-size: cover;
+        right: 155px;
+    }
+}
+
+.notification {
+    a{
+        padding: 10px 5px 10px 35px;
+    }
+    :before {
+        content: '';
+        background-image: url(./icons_exam_task1/notify_gray.svg);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background-size: cover;
+        right: 155px;
+    }
+}
+
+.sup {
+    a{
+        padding: 10px 40px 10px 35px;  
+    }
+    :before {
+        content: '';
+        background-image: url(./icons_exam_task1/support_gray.svg);
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        background-size: cover;
+        right: 155px;
+    }
+}
