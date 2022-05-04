@@ -132,6 +132,24 @@
         padding-bottom: 20px;
     }
 
+    .first-card-row-second-page {
+        flex-wrap: wrap-reverse;
+    }
+
+    .card-user-profile{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .card-second-page {
+        width: 100%;
+        margin-bottom: 80px;
+    }
+
+    .footer-content-second-page {
+        border: none;
+        margin-top: 40px;
+    }
 }
 
 @media (max-width: 800px) {
@@ -300,5 +318,23 @@
 
     .card-3-h4, .card-3-p, .card3-text  {
         font-size: 16px;
+    }
+
+    .card-second-page-body {
+        h3 {
+            font-size: 16px;
+        }
+        
+        h4 {
+            font-size: 16px;;
+        }
+    }
+    
+    .card-second-page-desc p {
+        font-size: 16px;
+    }
+
+    label {
+        font-size: 14px;
     }
 }

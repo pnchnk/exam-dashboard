@@ -70,3 +70,33 @@ body {
     margin-left: 20px;
     margin-right: 20px;
 }
+
+.card-second-page {
+    height:max-content;
+}
+
+.first-card-row-second-page {
+    margin-left: 40px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.card-second-page-img {
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin-top: -20px;
+}
+
+.footer-content-second-page {
+    display: flex;
+    margin-top: 90px;
+    margin-left: 40px;
+    margin-right: 40px;
+    border-top: 1px solid gray;
+    justify-content: space-between;
+    padding-top: 20px;
+}
