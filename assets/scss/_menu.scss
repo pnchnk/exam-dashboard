@@ -5,8 +5,7 @@
     left: 0px;
     background-color: rgb(240, 240, 240);
     min-height: 100%;
-    -webkit-box-shadow: 7px 0px 2px 0px #919191;
-    box-shadow: 7px 0px 2px 0px #919191;
+    @extend %menu-shadow;
 }
 
 .menu-header {
@@ -48,7 +47,7 @@
         color: black;
 
         &:focus {
-            background-color: rgb(187, 67, 87) !important;
+            background-color: $cherry !important;
             color: white;
         }
     }
@@ -63,13 +62,8 @@
         padding: 10px 20px 10px 35px;
     }
     :before {
-        content: '';
         background-image: url(./icons_exam_task1/dashboard_gray.svg);
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        background-size: cover;
-        right: 155px;
+        @include menu-icons-details;
     
     }
 }
@@ -79,13 +73,8 @@
         padding: 10px 15px 10px 35px;  
     } 
     :before {
-        content: '';
         background-image: url(./icons_exam_task1/account_gray.svg);
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        background-size: cover;
-        right: 155px;
+        @include menu-icons-details;
     }
 }
 
@@ -94,13 +83,8 @@
         padding: 10px 55px 10px 35px;
     } 
     :before {
-        content: '';
         background-image: url(./icons_exam_task1/map_gray.svg);
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        background-size: cover;
-        right: 155px;
+        @include menu-icons-details;
     }
 }
 
@@ -109,13 +93,8 @@
         padding: 10px 5px 10px 35px;
     }
     :before {
-        content: '';
         background-image: url(./icons_exam_task1/notify_gray.svg);
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        background-size: cover;
-        right: 155px;
+        @include menu-icons-details;
     }
 }
 
@@ -124,12 +103,7 @@
         padding: 10px 40px 10px 35px;  
     }
     :before {
-        content: '';
         background-image: url(./icons_exam_task1/support_gray.svg);
-        width: 20px;
-        height: 20px;
-        position: absolute;
-        background-size: cover;
-        right: 155px;
+        @include menu-icons-details;
     }
 }

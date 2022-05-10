@@ -2,18 +2,7 @@
     width: 22%;
     position: relative;
     background-color: white;
-    -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-    box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-}
-
-.data-img {
-    background-color: green;
-    padding: 20px;
-    position: absolute;
-    left: 5%;
-    top: -15%;
-    -webkit-box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
-    box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
+    @extend %card-shadow;
 }
 
 .card-body  {
@@ -47,6 +36,30 @@
     }
 }
 
+.p1::before {
+    content: '';
+    background-image: url(./icons_exam_task1/alert.png);
+    @include icon-details;
+}
+
+.p2::before {
+    content: '';
+    background-image: url(./icons_exam_task1/calendar.png);
+    @include icon-details;
+}
+
+.p3::before {
+    content: '';
+    background-image: url(./icons_exam_task1/down.png);
+    @include icon-details;
+}
+
+.p4::before {
+    content: '';
+    background-image: url(./icons_exam_task1/time.png);
+    @include icon-details;
+}
+
 .card-description {
     margin-left: 40px;
     margin-top: 25px;
@@ -61,8 +74,7 @@
     width: 30%;
     position: relative;
     background-color: white;
-    -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-    box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+    @extend %card-shadow;
 }
 
 .card2-body {
@@ -97,19 +109,13 @@
     width: 48%;
     position: relative;
     background-color: white;
-    -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-    box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+    @extend %card-shadow;
 }
 
 .card3-text {
-    background-color: rgb(235, 170, 51);
-    padding: 30px 15px 30px 15px;
-    display: flex;
-    margin-left: 2.5%;
-    width: 95%;
-    margin-top: -20px;
-    -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-    box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+    background-color: $orange;
+    @include card3-backrnd;
+    @extend %card-shadow;
 
     p {
     display: inline;
@@ -152,13 +158,9 @@ th {
 }
 
 .card3-text2 {
-    background-color: rgb(9, 9, 192);
-    padding: 30px 15px 30px 15px;
-    margin: auto;
-    width: 95%;
-    margin-top: -20px;
-    -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-    box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+    background-color: $blue;
+    @include card3-backrnd;
+    @extend %card-shadow;
 }
 
 .card-3-h4 {
@@ -179,49 +181,33 @@ th {
     display: inline;
     list-style-type: none;
     margin-right: 30px;
-}
 
-.spisok-contacts li a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
+    a {
+        text-decoration: none;
+        color: black;
+        font-weight: bold;
+    }
 }
 
 .card-user-profile {
     width: 60%;
     position: relative;
     background-color: white;
-    -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-    box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+    @extend %card-shadow;
 }
 
 .card-user-profile-text {
-    background-color: rgb(187, 67, 87);
-    padding: 30px 15px 30px 15px;
-    display: flex;
-    margin-left: 2.5%;
-    width: 95%;
-    margin-top: -20px;
-    -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-    box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+    background-color: $cherry;
+    @include card3-backrnd;
+    @extend %card-shadow;
 }
 
 input[type=text], input[type=email], input[type=number] {
-    width: 100%;
-    padding: 5px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 1px solid rgba(112, 112, 112);
+    @extend %input-style;
   }
 
   textarea {
-    width: 100%;
-    padding: 5px 20px;
-    margin: 8px 0;
-    box-sizing: border-box;
-    border: none;
-    border-bottom: 1px solid rgba(112, 112, 112);
+    @extend %input-style;
     resize: none;
     overflow: hidden
   }
@@ -246,7 +232,7 @@ input[type=text], input[type=email], input[type=number] {
 
 .row-1 button {
     float: right;
-    background-color: rgb(187, 67, 87);
+    background-color: $cherry;
     border: none;
     padding: 12px 45px;
     text-align: center;
@@ -269,8 +255,7 @@ input[type=text], input[type=email], input[type=number] {
     width: 35%;
     position: relative;
     background-color: white;
-    -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-    box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+    @extend %card-shadow;
 }
 
 .card-second-page-body {

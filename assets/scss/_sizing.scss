@@ -1,7 +1,6 @@
 body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    @include reset;
+    font-family: $font-stack;
 }
 
 *,
@@ -13,8 +12,7 @@ body {
 .container {
     width: 100%;
     min-height: 100%;
-    margin: 0;
-    padding: 0;
+    @include reset;
 }
 
 .content {
@@ -32,19 +30,11 @@ body {
 }
 
 .second-card-row {
-    margin-left: 40px;
-    display: flex;
-    margin-top: 80px;
-    justify-content: space-between;
-    margin-right: 40px;
+    @include second-third-cardrw;
 }
 
 .third-card-row {
-    margin-left: 40px;
-    display: flex;
-    margin-top: 80px;
-    justify-content: space-between;
-    margin-right: 40px;
+    @include second-third-cardrw;
 }
 
 .footer-content {

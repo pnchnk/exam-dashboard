@@ -1,3 +1,32 @@
+.left-menu {
+  -webkit-box-shadow: 7px 0px 2px 0px #919191;
+  box-shadow: 7px 0px 2px 0px #919191;
+}
+
+.card-second-page, .card-user-profile-text, .card-user-profile, .card3-text2, .card3-text, .card3, .card2, .card {
+  -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+  box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+}
+
+.img2-1, .plane-img, .tag-img, .shop-img, .data-img {
+  -webkit-box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
+  box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
+}
+
+.second-img, .img2-3, .img2-2 {
+  -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+  box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+}
+
+textarea, input[type=text], input[type=email], input[type=number] {
+  width: 100%;
+  padding: 5px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid rgb(112, 112, 112);
+}
+
 body {
   padding: 0;
   margin: 0;
@@ -13,8 +42,8 @@ body {
 .container {
   width: 100%;
   min-height: 100%;
-  margin: 0;
   padding: 0;
+  margin: 0;
 }
 
 .content {
@@ -108,8 +137,6 @@ body {
   left: 0px;
   background-color: rgb(240, 240, 240);
   min-height: 100%;
-  -webkit-box-shadow: 7px 0px 2px 0px #919191;
-  box-shadow: 7px 0px 2px 0px #919191;
 }
 
 .menu-header {
@@ -156,8 +183,8 @@ body {
   padding: 10px 20px 10px 35px;
 }
 .dash :before {
-  content: "";
   background-image: url(./icons_exam_task1/dashboard_gray.svg);
+  content: "";
   width: 20px;
   height: 20px;
   position: absolute;
@@ -169,8 +196,8 @@ body {
   padding: 10px 15px 10px 35px;
 }
 .user-pr :before {
-  content: "";
   background-image: url(./icons_exam_task1/account_gray.svg);
+  content: "";
   width: 20px;
   height: 20px;
   position: absolute;
@@ -182,8 +209,8 @@ body {
   padding: 10px 55px 10px 35px;
 }
 .maps :before {
-  content: "";
   background-image: url(./icons_exam_task1/map_gray.svg);
+  content: "";
   width: 20px;
   height: 20px;
   position: absolute;
@@ -195,8 +222,8 @@ body {
   padding: 10px 5px 10px 35px;
 }
 .notification :before {
-  content: "";
   background-image: url(./icons_exam_task1/notify_gray.svg);
+  content: "";
   width: 20px;
   height: 20px;
   position: absolute;
@@ -208,8 +235,8 @@ body {
   padding: 10px 40px 10px 35px;
 }
 .sup :before {
-  content: "";
   background-image: url(./icons_exam_task1/support_gray.svg);
+  content: "";
   width: 20px;
   height: 20px;
   position: absolute;
@@ -221,18 +248,6 @@ body {
   width: 22%;
   position: relative;
   background-color: white;
-  -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-  box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-}
-
-.data-img {
-  background-color: green;
-  padding: 20px;
-  position: absolute;
-  left: 5%;
-  top: -15%;
-  -webkit-box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
-  box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
 }
 
 .card-body h3 {
@@ -261,6 +276,46 @@ body {
   top: 10px;
 }
 
+.p1::before {
+  content: "";
+  background-image: url(./icons_exam_task1/alert.png);
+  background-size: cover;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 20px;
+}
+
+.p2::before {
+  content: "";
+  background-image: url(./icons_exam_task1/calendar.png);
+  background-size: cover;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 20px;
+}
+
+.p3::before {
+  content: "";
+  background-image: url(./icons_exam_task1/down.png);
+  background-size: cover;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 20px;
+}
+
+.p4::before {
+  content: "";
+  background-image: url(./icons_exam_task1/time.png);
+  background-size: cover;
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  left: 20px;
+}
+
 .card-description {
   margin-left: 40px;
   margin-top: 25px;
@@ -274,8 +329,6 @@ body {
   width: 30%;
   position: relative;
   background-color: white;
-  -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-  box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 }
 
 .card2-body h3 {
@@ -306,8 +359,6 @@ body {
   width: 48%;
   position: relative;
   background-color: white;
-  -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-  box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 }
 
 .card3-text {
@@ -317,8 +368,6 @@ body {
   margin-left: 2.5%;
   width: 95%;
   margin-top: -20px;
-  -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-  box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 }
 .card3-text p {
   display: inline;
@@ -360,11 +409,10 @@ th {
 .card3-text2 {
   background-color: rgb(9, 9, 192);
   padding: 30px 15px 30px 15px;
-  margin: auto;
+  display: flex;
+  margin-left: 2.5%;
   width: 95%;
   margin-top: -20px;
-  -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-  box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 }
 
 .card-3-h4 {
@@ -386,7 +434,6 @@ th {
   list-style-type: none;
   margin-right: 30px;
 }
-
 .spisok-contacts li a {
   text-decoration: none;
   color: black;
@@ -397,8 +444,6 @@ th {
   width: 60%;
   position: relative;
   background-color: white;
-  -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-  box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 }
 
 .card-user-profile-text {
@@ -408,26 +453,9 @@ th {
   margin-left: 2.5%;
   width: 95%;
   margin-top: -20px;
-  -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-  box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-}
-
-input[type=text], input[type=email], input[type=number] {
-  width: 100%;
-  padding: 5px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 1px solid rgb(112, 112, 112);
 }
 
 textarea {
-  width: 100%;
-  padding: 5px 20px;
-  margin: 8px 0;
-  box-sizing: border-box;
-  border: none;
-  border-bottom: 1px solid rgb(112, 112, 112);
   resize: none;
   overflow: hidden;
 }
@@ -472,8 +500,6 @@ label {
   width: 35%;
   position: relative;
   background-color: white;
-  -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-  box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 }
 
 .card-second-page-body h3 {
@@ -491,13 +517,11 @@ label {
 }
 
 .data-img {
-  background-color: green;
+  background-color: #008000;
   padding: 20px;
   position: absolute;
   left: 5%;
   top: -15%;
-  -webkit-box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
-  box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
 }
 
 .shop-img {
@@ -506,8 +530,6 @@ label {
   position: absolute;
   left: 5%;
   top: -15%;
-  -webkit-box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
-  box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
 }
 
 .tag-img {
@@ -516,8 +538,6 @@ label {
   position: absolute;
   left: 5%;
   top: -15%;
-  -webkit-box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
-  box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
 }
 
 .plane-img {
@@ -526,18 +546,14 @@ label {
   position: absolute;
   left: 5%;
   top: -15%;
-  -webkit-box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
-  box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
 }
 
 .img2-1 {
-  background-color: green;
+  background-color: #008000;
   width: 90%;
   height: 90%;
   margin-left: 5%;
   margin-top: -20px;
-  -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-  box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 }
 
 .img2-2 {
@@ -546,8 +562,6 @@ label {
   height: 90%;
   margin-left: 5%;
   margin-top: -20px;
-  -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-  box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 }
 
 .img2-3 {
@@ -556,8 +570,6 @@ label {
   height: 90%;
   margin-left: 5%;
   margin-top: -20px;
-  -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-  box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 }
 
 .bugs {
@@ -605,47 +617,6 @@ label {
   border: 1px black solid;
   border-radius: 50%;
   overflow: hidden;
-  box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
-}
-
-.p1::before {
-  content: "";
-  background-image: url(./icons_exam_task1/alert.png);
-  background-size: cover;
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  left: 20px;
-}
-
-.p2::before {
-  content: "";
-  background-image: url(./icons_exam_task1/calendar.png);
-  background-size: cover;
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  left: 20px;
-}
-
-.p3::before {
-  content: "";
-  background-image: url(./icons_exam_task1/down.png);
-  background-size: cover;
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  left: 20px;
-}
-
-.p4::before {
-  content: "";
-  background-image: url(./icons_exam_task1/time.png);
-  background-size: cover;
-  position: absolute;
-  width: 15px;
-  height: 15px;
-  left: 20px;
 }
 
 @media (max-width: 1370px) {
