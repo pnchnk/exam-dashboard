@@ -36,6 +36,7 @@
     }
 }
 
+//добавление иконок на карточки 1-2 ряда
 .p1::before {
     content: '';
     background-image: url(./icons_exam_task1/alert.png);
@@ -188,6 +189,8 @@ th {
         font-weight: bold;
     }
 }
+
+//контент второй страницы
 
 .card-user-profile {
     width: 60%;

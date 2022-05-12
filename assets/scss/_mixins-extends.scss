@@ -3,6 +3,7 @@
     margin: 0;
     }
 
+//свойства меню-иконок
 @mixin menu-icons-details {
     content: '';
     width: 20px;
@@ -27,6 +28,7 @@ box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
 }
 
+//тень картинок второго ряда
 %img2-shadows {
 -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
@@ -46,6 +48,7 @@ left: 5%;
 top: -15%;
 }
 
+//позиции картинок второго ряда
 @mixin position-image2 {
 margin-left: 5%;
 margin-top: -20px;
@@ -60,6 +63,7 @@ border: none;
 border-bottom: 1px solid rgba(112, 112, 112);
 }
 
+//свойства цветных частей карточек третьего ряда
 @mixin card3-backrnd {
 padding: 30px 15px 30px 15px;
 display: flex;
@@ -68,6 +72,8 @@ width: 95%;
 margin-top: -20px;
 }
 
+
+//свойства второго и третьего рядов
 @mixin second-third-cardrw {
 margin-left: 40px;
 display: flex;

@@ -8,6 +8,7 @@
     @extend %menu-shadow;
 }
 
+//хедер левого меню
 .menu-header {
     margin-left: 60px;
     font-size: 24px;
@@ -16,6 +17,7 @@
     padding-top: 20px;
 }
 
+//хедер части "контент"
 .menu-header2 {
     font-size: 24px;
     font-weight: bold;
@@ -56,7 +58,7 @@
 
 
 
-
+//добавление иконок в список меню
 .dash {
     a {
         padding: 10px 20px 10px 35px;

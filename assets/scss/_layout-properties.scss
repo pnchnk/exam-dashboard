@@ -15,12 +15,14 @@ body {
     @include reset;
 }
 
+//основной блок с карточками и контентом
 .content {
     margin-left: 235px;
     min-height: 100vh;
     background-color: #e2e2e2;
 }
 
+//первый ряд
 .first-card-row {
     margin-left: 40px;
     display: flex;
@@ -29,10 +31,12 @@ body {
     margin-right: 40px;
 }
 
+//второй ряд
 .second-card-row {
     @include second-third-cardrw;
 }
 
+//третий ряд
 .third-card-row {
     @include second-third-cardrw;
 }
@@ -56,10 +60,12 @@ body {
     justify-content: space-between;
 }
 
+//строки с инпутами первой карточки, второй странцы
 .row-1 {
     margin-left: 20px;
     margin-right: 20px;
 }
+
 
 .card-second-page {
     height:max-content;
