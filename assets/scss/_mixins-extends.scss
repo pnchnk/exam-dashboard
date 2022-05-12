@@ -1,0 +1,77 @@
+@mixin reset {
+    padding: 0;
+    margin: 0;
+    }
+
+@mixin menu-icons-details {
+    content: '';
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    background-size: cover;
+    right: 155px;
+}
+
+%menu-shadow {
+-webkit-box-shadow: 7px 0px 2px 0px #919191;
+box-shadow: 7px 0px 2px 0px #919191;
+}
+
+%card-shadow {
+-webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+}
+
+%img-shadow {
+-webkit-box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
+box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
+}
+
+%img2-shadows {
+-webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
+}
+
+@mixin icon-details {
+background-size: cover;
+position: absolute;
+width: 15px;
+height: 15px;
+left: 20px;
+} 
+
+@mixin position-images {
+position: absolute;
+left: 5%;
+top: -15%;
+}
+
+@mixin position-image2 {
+margin-left: 5%;
+margin-top: -20px;
+}
+
+%input-style {
+width: 100%;
+padding: 5px 20px;
+margin: 8px 0;
+box-sizing: border-box;
+border: none;
+border-bottom: 1px solid rgba(112, 112, 112);
+}
+
+@mixin card3-backrnd {
+padding: 30px 15px 30px 15px;
+display: flex;
+margin-left: 2.5%;
+width: 95%;
+margin-top: -20px;
+}
+
+@mixin second-third-cardrw {
+margin-left: 40px;
+display: flex;
+margin-top: 80px;
+justify-content: space-between;
+margin-right: 40px;
+}
