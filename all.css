@@ -170,11 +170,17 @@ body {
   position: relative;
   margin-left: 20px;
 }
-.spisok-nav li a {
+.spisok-nav a {
   text-decoration: none;
   color: black;
 }
-.spisok-nav li a:focus {
+.spisok-nav a:link {
+  background-color: none;
+}
+.spisok-nav a:visited {
+  background-color: rgb(187, 67, 87);
+}
+.spisok-nav a:active {
   background-color: rgb(187, 67, 87) !important;
   color: white;
 }

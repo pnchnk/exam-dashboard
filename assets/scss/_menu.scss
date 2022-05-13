@@ -44,11 +44,19 @@
         margin-left: 20px;
     }
 
-    li a {
+    a {
         text-decoration: none;
         color: black;
 
-        &:focus {
+        &:link {
+            background-color: none;
+        }
+
+        &:visited {
+            background-color: $cherry;
+        }
+
+        &:active {
             background-color: $cherry !important;
             color: white;
         }
