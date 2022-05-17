@@ -44,7 +44,7 @@
 
 @media (max-width: 1000px) {
 
-    .first-card-row {
+    .row {
         flex-wrap: wrap;
     }
 
@@ -83,9 +83,6 @@
         top: 10px;
     }
 
-    .third-card-row {
-        flex-wrap: wrap;
-    }
 
     .card-table {
         width: 100%;
@@ -116,7 +113,7 @@
         padding-bottom: 20px;
     }
 
-    .first-card-row-second-page {
+    .user-profile {
         flex-wrap: wrap-reverse;
     }
 
@@ -130,10 +127,6 @@
         margin-bottom: 80px;
     }
 
-    .footer-content-second-page {
-        border: none;
-        margin-top: 40px;
-    }
 }
 
 @media (max-width: 800px) {

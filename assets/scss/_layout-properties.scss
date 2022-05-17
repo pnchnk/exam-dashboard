@@ -18,36 +18,21 @@ body {
 //основной блок с карточками и контентом
 .content {
     margin-left: 235px;
+    padding-left: 40px;
+    padding-right: 40px;
     min-height: 100vh;
     background-color: #e2e2e2;
 }
 
 //первый ряд
-.first-card-row {
-    margin-left: 40px;
+.row { 
     display: flex;
     margin-top: 50px;
-    justify-content: space-between;
-    margin-right: 40px;
+    justify-content: space-between; 
 }
 
-//второй ряд
-.second-card-row {
-    @include second-third-cardrw;
-}
-
-//третий ряд
-.third-card-row {
-    @include second-third-cardrw;
-}
-
-.footer-content {
-    display: flex;
-    margin-top: 50px;
-    margin-left: 40px;
-    margin-right: 40px;
+.footer-content { 
     border-top: 1px solid gray;
-    justify-content: space-between;
     padding-top: 20px;
 }
 
@@ -61,7 +46,7 @@ body {
     flex-wrap: wrap;
 }
 
-//строки с инпутами первой карточки, второй странцы
+//строки с инпутами edit-profile
 .row-1 {
     margin-left: 20px;
     margin-right: 20px;
@@ -72,13 +57,6 @@ body {
     height:max-content;
 }
 
-.first-card-row-second-page {
-    margin-left: 40px;
-    display: flex;
-    margin-top: 50px;
-    justify-content: space-between;
-    margin-right: 40px;
-}
 
 .card-user-img {
     justify-content: center;
@@ -86,14 +64,4 @@ body {
     align-content: center;
     display: flex;
     margin-top: -20px;
-}
-
-.footer-content-second-page {
-    display: flex;
-    margin-top: 90px;
-    margin-left: 40px;
-    margin-right: 40px;
-    border-top: 1px solid gray;
-    justify-content: space-between;
-    padding-top: 20px;
 }

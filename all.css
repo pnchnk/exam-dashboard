@@ -49,41 +49,20 @@ body {
 
 .content {
   margin-left: 235px;
+  padding-left: 40px;
+  padding-right: 40px;
   min-height: 100vh;
   background-color: #e2e2e2;
 }
 
-.first-card-row {
-  margin-left: 40px;
+.row {
   display: flex;
   margin-top: 50px;
   justify-content: space-between;
-  margin-right: 40px;
-}
-
-.second-card-row {
-  margin-left: 40px;
-  display: flex;
-  margin-top: 80px;
-  justify-content: space-between;
-  margin-right: 40px;
-}
-
-.third-card-row {
-  margin-left: 40px;
-  display: flex;
-  margin-top: 80px;
-  justify-content: space-between;
-  margin-right: 40px;
 }
 
 .footer-content {
-  display: flex;
-  margin-top: 50px;
-  margin-left: 40px;
-  margin-right: 40px;
   border-top: 1px solid gray;
-  justify-content: space-between;
   padding-top: 20px;
 }
 
@@ -106,30 +85,12 @@ body {
   height: max-content;
 }
 
-.first-card-row-second-page {
-  margin-left: 40px;
-  display: flex;
-  margin-top: 50px;
-  justify-content: space-between;
-  margin-right: 40px;
-}
-
 .card-user-img {
   justify-content: center;
   align-items: center;
   align-content: center;
   display: flex;
   margin-top: -20px;
-}
-
-.footer-content-second-page {
-  display: flex;
-  margin-top: 90px;
-  margin-left: 40px;
-  margin-right: 40px;
-  border-top: 1px solid gray;
-  justify-content: space-between;
-  padding-top: 20px;
 }
 
 .left-menu {
@@ -702,7 +663,7 @@ label {
   }
 }
 @media (max-width: 1000px) {
-  .first-card-row {
+  .row {
     flex-wrap: wrap;
   }
 
@@ -740,10 +701,6 @@ label {
     top: 10px;
   }
 
-  .third-card-row {
-    flex-wrap: wrap;
-  }
-
   .card-table {
     width: 100%;
     margin-bottom: 60px;
@@ -773,7 +730,7 @@ label {
     padding-bottom: 20px;
   }
 
-  .first-card-row-second-page {
+  .user-profile {
     flex-wrap: wrap-reverse;
   }
 
@@ -785,11 +742,6 @@ label {
   .card-user {
     width: 100%;
     margin-bottom: 80px;
-  }
-
-  .footer-content-second-page {
-    border: none;
-    margin-top: 40px;
   }
 }
 @media (max-width: 800px) {

@@ -78,7 +78,7 @@ left: 5%;
 top: -15%;
 }
 
-//позиции графиков карточек
+//позиции графиков 
 @mixin position-image2 {
 margin-left: 5%;
 margin-top: -20px;
@@ -106,9 +106,9 @@ margin-top: -20px;
 
 //свойства второго и третьего рядов
 @mixin second-third-cardrw {
-margin-left: 40px;
+
 display: flex;
 margin-top: 80px;
 justify-content: space-between;
-margin-right: 40px;
+
 }
