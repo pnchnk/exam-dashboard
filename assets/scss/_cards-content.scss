@@ -62,23 +62,15 @@
 }
 
 .card-description {
-    margin-left: 40px;
-    margin-top: 25px;
-
-    p {
-        font-size: 12px;
-        color: gray;
-    }
+    @include card-description;
 }
 
-.card2 {
-    width: 30%;
-    position: relative;
-    background-color: white;
+.card-graphics {
+    @include card(30%);
     @extend %card-shadow;
 }
 
-.card2-body {
+.card-graphics-body {
     h3 {
         font-size: 22px;
         font-weight: normal;
@@ -104,6 +96,14 @@
         display: block;
         top: 10px;
     }
+}
+
+.card-graphics-description {
+    @include card-description;
+}
+
+.card-graphics-p::before {
+    @include card-icon-time;
 }
 
 .card3 {

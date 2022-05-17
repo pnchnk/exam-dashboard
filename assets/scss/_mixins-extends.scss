@@ -13,6 +13,43 @@
     right: 155px;
 }
 
+@mixin card ($width) {
+    width: $width;
+    position: relative;
+    background-color: white;
+}
+
+@mixin card-description {
+    margin-left: 40px;
+    margin-top: 25px;
+    p {
+        font-size: 12px;
+        color: gray;
+    }
+}
+
+@mixin card-graphics-image($color) {
+    background-color: $color;
+    width: 90%;
+    height: 90%;
+    @include position-image2;
+    @extend %img-shadow;
+}    
+
+@mixin card-icon-time {     
+        content: '';
+        background-image: url(./icons_exam_task1/time.png);
+        @include icon-details;
+}
+
+@mixin icon-details {
+    background-size: cover;
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    left: 20px;
+    } 
+
 %menu-shadow {
 -webkit-box-shadow: 7px 0px 2px 0px #919191;
 box-shadow: 7px 0px 2px 0px #919191;
@@ -34,13 +71,6 @@ box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
 box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 }
 
-@mixin icon-details {
-background-size: cover;
-position: absolute;
-width: 15px;
-height: 15px;
-left: 20px;
-} 
 
 @mixin position-images {
 position: absolute;

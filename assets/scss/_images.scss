@@ -26,28 +26,16 @@
     @extend %img-shadow;
 }
 
-.img2-1 {
-    background-color: $green;
-    width: 90%;
-    height: 90%;
-    @include position-image2;
-    @extend %img-shadow;
+.green-graphic {
+    @include card-graphics-image($green)
 }
 
-.img2-2 {
-    background-color: $orange;
-    width: 90%;
-    height: 90%;
-    @include position-image2;
-    @extend %img2-shadows;
+.orange-graphic {
+    @include card-graphics-image($orange)
 }
 
-.img2-3 {
-    background-color: $blue;
-    width: 90%;
-    height: 90%;
-    @include position-image2;
-    @extend %img2-shadows;
+.blue-graphic {
+    @include card-graphics-image($blue)
 }
 
 .bugs {
