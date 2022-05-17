@@ -417,6 +417,10 @@ th {
   font-weight: 200;
 }
 
+.footer-content {
+  border-top: 1px solid gray;
+}
+
 .spisok-contacts li {
   display: inline;
   list-style-type: none;
@@ -516,6 +520,11 @@ label {
 .card-user-desc p {
   margin: 10px 15px;
   text-align: center;
+}
+
+.user-profile-footer {
+  border-top: 1px solid gray;
+  margin-top: 100px;
 }
 
 .data-img {
