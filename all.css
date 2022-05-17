@@ -3,7 +3,7 @@
   box-shadow: 7px 0px 2px 0px #919191;
 }
 
-.card-second-page, .card-user-profile-text, .card-user-profile, .card-table-text2, .card-table-text, .card-table, .card-graphics, .card {
+.card-user, .card-edit-profile-text, .card-edit-profile, .card-table-text2, .card-table-text, .card-table, .card-graphics, .card {
   -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
   box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 }
@@ -13,7 +13,7 @@
   box-shadow: 5px 0px 9px -3px rgba(112, 112, 112, 0.81);
 }
 
-.second-img {
+.user-img {
   -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
   box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 }
@@ -25,6 +25,7 @@ textarea, input[type=text], input[type=email], input[type=number] {
   box-sizing: border-box;
   border: none;
   border-bottom: 1px solid rgb(112, 112, 112);
+  outline: none;
 }
 
 body {
@@ -93,6 +94,7 @@ body {
 .first-form {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .row-1 {
@@ -100,7 +102,7 @@ body {
   margin-right: 20px;
 }
 
-.card-second-page {
+.card-user {
   height: max-content;
 }
 
@@ -112,7 +114,7 @@ body {
   margin-right: 40px;
 }
 
-.card-second-page-img {
+.card-user-img {
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -465,19 +467,33 @@ th {
   font-weight: bold;
 }
 
-.card-user-profile {
+.card-edit-profile {
   width: 60%;
   position: relative;
   background-color: white;
 }
 
-.card-user-profile-text {
+.card-edit-profile-text {
   background-color: rgb(187, 67, 87);
   padding: 30px 15px 30px 15px;
   display: flex;
   margin-left: 2.5%;
   width: 95%;
   margin-top: -20px;
+}
+
+.card-edit-profile-h4 {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+  font-weight: 200;
+}
+
+.card-edit-profile-p {
+  padding-bottom: 10px;
+  color: white;
+  margin: 0;
+  font-weight: 200;
 }
 
 textarea {
@@ -521,22 +537,22 @@ label {
   background-color: rgb(158, 56, 73);
 }
 
-.card-second-page {
+.card-user {
   width: 35%;
   position: relative;
   background-color: white;
 }
 
-.card-second-page-body h3 {
+.card-user-body h3 {
   text-align: center;
   color: gray;
   font-weight: 200;
 }
-.card-second-page-body h4 {
+.card-user-body h4 {
   text-align: center;
 }
 
-.card-second-page-desc p {
+.card-user-desc p {
   margin: 10px 15px;
   text-align: center;
 }
@@ -636,7 +652,7 @@ label {
   right: 110%;
 }
 
-.second-img {
+.user-img {
   width: 170px;
   height: 170px;
   border: 1px black solid;
@@ -761,12 +777,12 @@ label {
     flex-wrap: wrap-reverse;
   }
 
-  .card-user-profile {
+  .card-edit-profile {
     width: 100%;
     margin-bottom: 40px;
   }
 
-  .card-second-page {
+  .card-user {
     width: 100%;
     margin-bottom: 80px;
   }
@@ -942,14 +958,14 @@ label {
     font-size: 16px;
   }
 
-  .card-second-page-body h3 {
+  .card-user-body h3 {
     font-size: 16px;
   }
-  .card-second-page-body h4 {
+  .card-user-body h4 {
     font-size: 16px;
   }
 
-  .card-second-page-desc p {
+  .card-user-desc p {
     font-size: 16px;
   }
 

@@ -58,6 +58,7 @@ body {
 .first-form {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 //строки с инпутами первой карточки, второй странцы
@@ -67,7 +68,7 @@ body {
 }
 
 
-.card-second-page {
+.card-user {
     height:max-content;
 }
 
@@ -79,7 +80,7 @@ body {
     margin-right: 40px;
 }
 
-.card-second-page-img {
+.card-user-img {
     justify-content: center;
     align-items: center;
     align-content: center;

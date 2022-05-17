@@ -190,17 +190,29 @@ th {
 
 //контент второй страницы
 
-.card-user-profile {
-    width: 60%;
-    position: relative;
-    background-color: white;
+.card-edit-profile {
+    @include card(60%);
     @extend %card-shadow;
 }
 
-.card-user-profile-text {
+.card-edit-profile-text {
     background-color: $cherry;
     @include card3-backrnd;
     @extend %card-shadow;
+}
+
+.card-edit-profile-h4 {
+    font-size: 20px;
+    color: white;
+    margin: 0;
+    font-weight: 200;
+}
+
+.card-edit-profile-p {
+    padding-bottom: 10px;
+    color: white;
+    margin: 0;
+    font-weight: 200;
 }
 
 input[type=text], input[type=email], input[type=number] {
@@ -252,14 +264,12 @@ input[type=text], input[type=email], input[type=number] {
 
 }
 
-.card-second-page {
-    width: 35%;
-    position: relative;
-    background-color: white;
+.card-user {
+    @include card (35%);
     @extend %card-shadow;
 }
 
-.card-second-page-body {
+.card-user-body {
     h3 {
         text-align: center;
         color: gray;
@@ -271,7 +281,7 @@ input[type=text], input[type=email], input[type=number] {
     }
 }
 
-.card-second-page-desc p {
+.card-user-desc p {
     margin: 10px 15px;
     text-align: center;
 }
