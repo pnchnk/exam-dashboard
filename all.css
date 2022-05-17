@@ -110,18 +110,18 @@ body {
   padding-top: 20px;
 }
 
-.menu-header2 {
+.content-header {
   font-size: 24px;
   font-weight: bold;
   margin-top: 0;
-  padding-top: 15px;
+  padding-top: 20px;
 }
-.menu-header2 a {
+.content-header a {
   text-decoration: none;
   color: black;
 }
-.menu-header2 img {
-  visibility: hidden;
+.content-header img {
+  display: none;
 }
 
 .spisok-nav {
@@ -762,15 +762,16 @@ label {
     margin-left: 0;
   }
 
-  .menu-header2 {
-    margin-left: 40px;
+  .content-header {
     position: relative;
   }
-
-  .menu-header2 img {
+  .content-header .dashboard {
+    display: none;
+  }
+  .content-header img {
     width: 30px;
     height: 20px;
-    visibility: inherit;
+    display: block;
   }
 
   .card {
@@ -829,10 +830,6 @@ label {
   .card-graphics-body:after {
     width: 95%;
     left: 2.5%;
-  }
-
-  .third-card-row {
-    margin-top: 20px;
   }
 
   .card-table-row {

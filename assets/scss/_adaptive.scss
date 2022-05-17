@@ -138,15 +138,17 @@
         margin-left: 0;
     }
 
-    .menu-header2 {
-        margin-left: 40px;
+    .content-header {
         position: relative;
-    }
+        .dashboard {
+            display: none;
+        }
 
-    .menu-header2 img {
-    width: 30px;
-    height: 20px;
-    visibility: inherit;
+        img {
+            width: 30px;
+            height: 20px;
+            display: block;
+        }
     }
 
     .card {
@@ -205,10 +207,6 @@
     .card-graphics-body:after {
         width: 95%;
         left: 2.5%;
-    }
-
-    .third-card-row {
-        margin-top: 20px;
     }
 
     .card-table-row {
