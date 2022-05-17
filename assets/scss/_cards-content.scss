@@ -106,14 +106,12 @@
     @include card-icon-time;
 }
 
-.card3 {
-    width: 48%;
-    position: relative;
-    background-color: white;
+.card-table {
+    @include card(48%);
     @extend %card-shadow;
 }
 
-.card3-text {
+.card-table-text {
     background-color: $orange;
     @include card3-backrnd;
     @extend %card-shadow;
@@ -124,7 +122,7 @@
     }
 }
 
-.card3-list {
+.card-table-list {
     list-style-type: none;
     display: inline-flex;
     padding: 0;
@@ -158,20 +156,20 @@ th {
     padding-bottom: 20px;
 }
 
-.card3-text2 {
+.card-table-text2 {
     background-color: $blue;
     @include card3-backrnd;
     @extend %card-shadow;
 }
 
-.card-3-h4 {
+.card-table-h4 {
     font-size: 20px;
     color: white;
     margin: 0;
     font-weight: 200;
 }
 
-.card-3-p {
+.card-table-p {
     padding-bottom: 10px;
     color: white;
     margin: 0;

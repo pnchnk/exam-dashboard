@@ -3,7 +3,7 @@
   box-shadow: 7px 0px 2px 0px #919191;
 }
 
-.card-second-page, .card-user-profile-text, .card-user-profile, .card3-text2, .card3-text, .card3, .card-graphics, .card {
+.card-second-page, .card-user-profile-text, .card-user-profile, .card-table-text2, .card-table-text, .card-table, .card-graphics, .card {
   -webkit-box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
   box-shadow: 3px 2px 6px 2px rgba(112, 112, 112, 0.73);
 }
@@ -380,13 +380,13 @@ body {
   left: 20px;
 }
 
-.card3 {
+.card-table {
   width: 48%;
   position: relative;
   background-color: white;
 }
 
-.card3-text {
+.card-table-text {
   background-color: rgb(235, 170, 51);
   padding: 30px 15px 30px 15px;
   display: flex;
@@ -394,20 +394,20 @@ body {
   width: 95%;
   margin-top: -20px;
 }
-.card3-text p {
+.card-table-text p {
   display: inline;
   color: white;
 }
 
-.card3-list {
+.card-table-list {
   list-style-type: none;
   display: inline-flex;
   padding: 0;
 }
-.card3-list li {
+.card-table-list li {
   margin-left: 70%;
 }
-.card3-list a {
+.card-table-list a {
   color: white;
   text-decoration: none;
 }
@@ -431,7 +431,7 @@ th {
   padding-bottom: 20px;
 }
 
-.card3-text2 {
+.card-table-text2 {
   background-color: rgb(9, 9, 192);
   padding: 30px 15px 30px 15px;
   display: flex;
@@ -440,14 +440,14 @@ th {
   margin-top: -20px;
 }
 
-.card-3-h4 {
+.card-table-h4 {
   font-size: 20px;
   color: white;
   margin: 0;
   font-weight: 200;
 }
 
-.card-3-p {
+.card-table-p {
   padding-bottom: 10px;
   color: white;
   margin: 0;
@@ -654,7 +654,7 @@ label {
     padding: 15px;
   }
 
-  .card3-list li {
+  .card-table-list li {
     margin-left: 30%;
   }
 
@@ -677,7 +677,7 @@ label {
     padding-bottom: 10px;
   }
 
-  .card3 {
+  .card-table {
     width: 49%;
   }
 
@@ -695,7 +695,7 @@ label {
     margin-bottom: 70px;
   }
 
-  .second-card-row {
+  .card-table-main {
     margin-top: 0;
   }
 
@@ -728,7 +728,7 @@ label {
     flex-wrap: wrap;
   }
 
-  .card3 {
+  .card-table {
     width: 100%;
     margin-bottom: 60px;
   }
@@ -737,15 +737,15 @@ label {
     margin-top: 0;
   }
 
-  .card3-text {
+  .card-table-text {
     margin-left: 2.5%;
   }
 
-  .card3-list {
+  .card-table-list {
     margin-left: 10%;
   }
 
-  .card3-list li {
+  .card-table-list li {
     margin-left: 50%;
   }
 
@@ -818,11 +818,11 @@ label {
     font-size: 14px;
   }
 
-  .card3 {
+  .card-table {
     padding-bottom: 10px;
   }
 
-  .card3 img {
+  .card-table img {
     width: 24px;
     height: 24px;
   }
@@ -858,15 +858,15 @@ label {
     margin-top: 20px;
   }
 
-  .fourth-card-row {
+  .card-table-row {
     padding-bottom: 30px;
   }
 
-  .card3-list {
+  .card-table-list {
     margin-left: 0;
   }
 
-  .card3 img {
+  .card-table img {
     width: 24px;
     height: 24px;
   }
@@ -881,7 +881,7 @@ label {
     padding: 0;
   }
 
-  .card3-text, .card3-text2 {
+  .card-table-text, .card-table-text2 {
     padding-bottom: 15px;
     padding-top: 15px;
   }
@@ -905,15 +905,15 @@ label {
     width: 25%;
   }
 
-  .card3-text {
+  .card-table-text {
     position: relative;
   }
 
-  .card3-list {
+  .card-table-list {
     width: 25%;
   }
 
-  .card3 img {
+  .card-table img {
     width: 24px;
     height: 24px;
   }
@@ -938,7 +938,7 @@ label {
     padding-left: 0;
   }
 
-  .card-3-h4, .card-3-p, .card3-text {
+  .card-table-h4, .card-table-p, .card-table-text {
     font-size: 16px;
   }
 
