@@ -768,6 +768,9 @@ label {
   .content-header .dashboard {
     display: none;
   }
+  .content-header .cont-head-h {
+    display: none;
+  }
   .content-header img {
     width: 30px;
     height: 20px;
